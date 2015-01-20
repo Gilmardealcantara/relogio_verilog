@@ -1,0 +1,328 @@
+# Reading C:/Altera/12.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do relogio_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying c:\altera\12.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:\altera\12.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/ARQUIVOS/relogio {E:/ARQUIVOS/relogio/relogio.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module my_clock
+# -- Compiling module Flip_flop_T
+# -- Compiling module contador_6
+# -- Compiling module contador_10
+# -- Compiling module contador_2
+# -- Compiling module relogio
+# 
+# Top level modules:
+# 	my_clock
+# 	relogio
+# 
+vsim work.relogio
+# vsim work.relogio 
+# Loading work.relogio
+# Loading work.contador_10
+# Loading work.Flip_flop_T
+# Loading work.contador_6
+# Loading work.contador_2
+force -freeze sim:/relogio/En 1 0, 1 {50 ps} -r 100
+force -freeze sim:/relogio/Clk 1 0, 0 {0 ps} -r 1
+force -freeze sim:/relogio/Clear 0 0, 0 {50 ps} -r 100
+run
+add wave -position end  sim:/relogio/En
+add wave -position end  sim:/relogio/Clk
+add wave -position end  sim:/relogio/Clear
+add wave -position end  sim:/relogio/Q0
+add wave -position end  sim:/relogio/Q1
+add wave -position end  sim:/relogio/Q2
+add wave -position end  sim:/relogio/Q3
+add wave -position end  sim:/relogio/Q4
+add wave -position end  sim:/relogio/Q5
+run
+force -freeze sim:/relogio/Clear 1 0, 1 {50 ps} -r 100
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

@@ -1,0 +1,258 @@
+|relogio
+Q0[0] <= contador_10:S10.port0
+Q0[1] <= contador_10:S10.port0
+Q0[2] <= contador_10:S10.port0
+Q0[3] <= Q0[3].DB_MAX_OUTPUT_PORT_TYPE
+Q1[0] <= contador_6:S6.port0
+Q1[1] <= contador_6:S6.port0
+Q1[2] <= Q1[2].DB_MAX_OUTPUT_PORT_TYPE
+Q1[3] <= contador_6:S6.port0
+Q2[0] <= contador_10:M10.port0
+Q2[1] <= contador_10:M10.port0
+Q2[2] <= contador_10:M10.port0
+Q2[3] <= Q2[3].DB_MAX_OUTPUT_PORT_TYPE
+Q3[0] <= contador_6:M6.port0
+Q3[1] <= contador_6:M6.port0
+Q3[2] <= Q3[2].DB_MAX_OUTPUT_PORT_TYPE
+Q3[3] <= contador_6:M6.port0
+Q4[0] <= contador_10:H10.port0
+Q4[1] <= contador_10:H10.port0
+Q4[2] <= contador_10:H10.port0
+Q4[3] <= Q4[3].DB_MAX_OUTPUT_PORT_TYPE
+Q5[0] <= contador_2:H6.port0
+Q5[1] <= contador_2:H6.port0
+Q5[2] <= contador_2:H6.port0
+Q5[3] <= contador_2:H6.port0
+En => En.IN6
+Clk => Clk.IN1
+Clear => Clear.IN4
+
+
+|relogio|contador_10:S10
+q[0] <= Flip_flop_T:A.port0
+q[1] <= Flip_flop_T:B.port0
+q[2] <= Flip_flop_T:C.port0
+q[3] <= Flip_flop_T:D.port0
+En => En.IN1
+Clk => Clk.IN4
+Clear1 => comb.IN1
+
+
+|relogio|contador_10:S10|Flip_flop_T:A
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+
+|relogio|contador_10:S10|Flip_flop_T:B
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+
+|relogio|contador_10:S10|Flip_flop_T:C
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+
+|relogio|contador_10:S10|Flip_flop_T:D
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+
+|relogio|contador_6:S6
+q[0] <= Flip_flop_T:A.port0
+q[1] <= Flip_flop_T:B.port0
+q[2] <= Flip_flop_T:C.port0
+q[3] <= Flip_flop_T:D.port0
+En => En.IN1
+Clk => Clk.IN4
+Clear1 => comb.IN1
+
+
+|relogio|contador_6:S6|Flip_flop_T:A
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+
+|relogio|contador_6:S6|Flip_flop_T:B
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+
+|relogio|contador_6:S6|Flip_flop_T:C
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+
+|relogio|contador_6:S6|Flip_flop_T:D
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+
+|relogio|contador_10:M10
+q[0] <= Flip_flop_T:A.port0
+q[1] <= Flip_flop_T:B.port0
+q[2] <= Flip_flop_T:C.port0
+q[3] <= Flip_flop_T:D.port0
+En => En.IN1
+Clk => Clk.IN4
+Clear1 => comb.IN1
+
+
+|relogio|contador_10:M10|Flip_flop_T:A
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+
+|relogio|contador_10:M10|Flip_flop_T:B
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+
+|relogio|contador_10:M10|Flip_flop_T:C
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+
+|relogio|contador_10:M10|Flip_flop_T:D
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+
+|relogio|contador_6:M6
+q[0] <= Flip_flop_T:A.port0
+q[1] <= Flip_flop_T:B.port0
+q[2] <= Flip_flop_T:C.port0
+q[3] <= Flip_flop_T:D.port0
+En => En.IN1
+Clk => Clk.IN4
+Clear1 => comb.IN1
+
+
+|relogio|contador_6:M6|Flip_flop_T:A
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+
+|relogio|contador_6:M6|Flip_flop_T:B
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+
+|relogio|contador_6:M6|Flip_flop_T:C
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+
+|relogio|contador_6:M6|Flip_flop_T:D
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+
+|relogio|contador_10:H10
+q[0] <= Flip_flop_T:A.port0
+q[1] <= Flip_flop_T:B.port0
+q[2] <= Flip_flop_T:C.port0
+q[3] <= Flip_flop_T:D.port0
+En => En.IN1
+Clk => Clk.IN4
+Clear1 => comb.IN1
+
+
+|relogio|contador_10:H10|Flip_flop_T:A
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+
+|relogio|contador_10:H10|Flip_flop_T:B
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+
+|relogio|contador_10:H10|Flip_flop_T:C
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+
+|relogio|contador_10:H10|Flip_flop_T:D
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+
+|relogio|contador_2:H6
+q[0] <= Flip_flop_T:A.port0
+q[1] <= Flip_flop_T:B.port0
+q[2] <= Flip_flop_T:C.port0
+q[3] <= Flip_flop_T:D.port0
+En => En.IN1
+Clk => Clk.IN4
+Clear1 => comb.IN1
+
+
+|relogio|contador_2:H6|Flip_flop_T:A
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+
+|relogio|contador_2:H6|Flip_flop_T:B
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+
+|relogio|contador_2:H6|Flip_flop_T:C
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+
+|relogio|contador_2:H6|Flip_flop_T:D
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+T => Q~reg0.ENA
+
+

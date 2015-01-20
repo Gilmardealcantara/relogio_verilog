@@ -1,0 +1,245 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'contador_6:M6|Flip_flop_T:C|Q'
+Slack : -0.466
+TNS   : -0.544
+
+Type  : Slow Model Setup 'contador_6:S6|Flip_flop_T:C|Q'
+Slack : -0.420
+TNS   : -0.467
+
+Type  : Slow Model Setup 'Clk'
+Slack : -0.405
+TNS   : -0.446
+
+Type  : Slow Model Setup 'contador_10:S10|Flip_flop_T:D|Q'
+Slack : -0.037
+TNS   : -0.037
+
+Type  : Slow Model Setup 'contador_10:M10|Flip_flop_T:D|Q'
+Slack : -0.036
+TNS   : -0.036
+
+Type  : Slow Model Setup 'contador_10:H10|Flip_flop_T:D|Q'
+Slack : 0.051
+TNS   : 0.000
+
+Type  : Slow Model Hold 'Clk'
+Slack : -2.540
+TNS   : -2.540
+
+Type  : Slow Model Hold 'contador_6:M6|Flip_flop_T:C|Q'
+Slack : -2.344
+TNS   : -2.344
+
+Type  : Slow Model Hold 'contador_6:S6|Flip_flop_T:C|Q'
+Slack : -2.210
+TNS   : -2.210
+
+Type  : Slow Model Hold 'contador_10:M10|Flip_flop_T:D|Q'
+Slack : -2.194
+TNS   : -2.194
+
+Type  : Slow Model Hold 'contador_10:S10|Flip_flop_T:D|Q'
+Slack : -2.158
+TNS   : -2.158
+
+Type  : Slow Model Hold 'contador_10:H10|Flip_flop_T:D|Q'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'contador_6:M6|Flip_flop_T:C|Q'
+Slack : -1.353
+TNS   : -4.986
+
+Type  : Slow Model Recovery 'contador_10:H10|Flip_flop_T:D|Q'
+Slack : -1.275
+TNS   : -2.398
+
+Type  : Slow Model Recovery 'Clk'
+Slack : -0.800
+TNS   : -3.200
+
+Type  : Slow Model Recovery 'contador_6:S6|Flip_flop_T:C|Q'
+Slack : -0.673
+TNS   : -2.692
+
+Type  : Slow Model Recovery 'contador_10:M10|Flip_flop_T:D|Q'
+Slack : -0.662
+TNS   : -1.986
+
+Type  : Slow Model Recovery 'contador_10:S10|Flip_flop_T:D|Q'
+Slack : -0.658
+TNS   : -1.974
+
+Type  : Slow Model Removal 'Clk'
+Slack : -1.056
+TNS   : -4.224
+
+Type  : Slow Model Removal 'contador_10:M10|Flip_flop_T:D|Q'
+Slack : -0.847
+TNS   : -2.541
+
+Type  : Slow Model Removal 'contador_6:S6|Flip_flop_T:C|Q'
+Slack : -0.676
+TNS   : -2.704
+
+Type  : Slow Model Removal 'contador_6:M6|Flip_flop_T:C|Q'
+Slack : -0.578
+TNS   : -2.170
+
+Type  : Slow Model Removal 'contador_10:S10|Flip_flop_T:D|Q'
+Slack : -0.554
+TNS   : -1.662
+
+Type  : Slow Model Removal 'contador_10:H10|Flip_flop_T:D|Q'
+Slack : 1.566
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'Clk'
+Slack : -1.380
+TNS   : -5.380
+
+Type  : Slow Model Minimum Pulse Width 'contador_6:M6|Flip_flop_T:C|Q'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Slow Model Minimum Pulse Width 'contador_6:S6|Flip_flop_T:C|Q'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Slow Model Minimum Pulse Width 'contador_10:M10|Flip_flop_T:D|Q'
+Slack : -0.500
+TNS   : -3.000
+
+Type  : Slow Model Minimum Pulse Width 'contador_10:S10|Flip_flop_T:D|Q'
+Slack : -0.500
+TNS   : -3.000
+
+Type  : Slow Model Minimum Pulse Width 'contador_10:H10|Flip_flop_T:D|Q'
+Slack : -0.500
+TNS   : -2.000
+
+Type  : Fast Model Setup 'contador_6:M6|Flip_flop_T:C|Q'
+Slack : 0.315
+TNS   : 0.000
+
+Type  : Fast Model Setup 'contador_6:S6|Flip_flop_T:C|Q'
+Slack : 0.340
+TNS   : 0.000
+
+Type  : Fast Model Setup 'Clk'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Fast Model Setup 'contador_10:S10|Flip_flop_T:D|Q'
+Slack : 0.517
+TNS   : 0.000
+
+Type  : Fast Model Setup 'contador_10:M10|Flip_flop_T:D|Q'
+Slack : 0.518
+TNS   : 0.000
+
+Type  : Fast Model Setup 'contador_10:H10|Flip_flop_T:D|Q'
+Slack : 0.552
+TNS   : 0.000
+
+Type  : Fast Model Hold 'Clk'
+Slack : -1.584
+TNS   : -1.584
+
+Type  : Fast Model Hold 'contador_6:M6|Flip_flop_T:C|Q'
+Slack : -1.444
+TNS   : -1.444
+
+Type  : Fast Model Hold 'contador_6:S6|Flip_flop_T:C|Q'
+Slack : -1.362
+TNS   : -1.362
+
+Type  : Fast Model Hold 'contador_10:M10|Flip_flop_T:D|Q'
+Slack : -1.350
+TNS   : -1.350
+
+Type  : Fast Model Hold 'contador_10:S10|Flip_flop_T:D|Q'
+Slack : -1.318
+TNS   : -1.318
+
+Type  : Fast Model Hold 'contador_10:H10|Flip_flop_T:D|Q'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'contador_6:M6|Flip_flop_T:C|Q'
+Slack : -0.164
+TNS   : -0.452
+
+Type  : Fast Model Recovery 'contador_10:H10|Flip_flop_T:D|Q'
+Slack : -0.143
+TNS   : -0.212
+
+Type  : Fast Model Recovery 'Clk'
+Slack : 0.074
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'contador_6:S6|Flip_flop_T:C|Q'
+Slack : 0.125
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'contador_10:M10|Flip_flop_T:D|Q'
+Slack : 0.130
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'contador_10:S10|Flip_flop_T:D|Q'
+Slack : 0.133
+TNS   : 0.000
+
+Type  : Fast Model Removal 'Clk'
+Slack : -0.855
+TNS   : -3.420
+
+Type  : Fast Model Removal 'contador_10:M10|Flip_flop_T:D|Q'
+Slack : -0.688
+TNS   : -2.064
+
+Type  : Fast Model Removal 'contador_6:S6|Flip_flop_T:C|Q'
+Slack : -0.617
+TNS   : -2.468
+
+Type  : Fast Model Removal 'contador_6:M6|Flip_flop_T:C|Q'
+Slack : -0.604
+TNS   : -2.348
+
+Type  : Fast Model Removal 'contador_10:S10|Flip_flop_T:D|Q'
+Slack : -0.536
+TNS   : -1.608
+
+Type  : Fast Model Removal 'contador_10:H10|Flip_flop_T:D|Q'
+Slack : 0.800
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'Clk'
+Slack : -1.380
+TNS   : -5.380
+
+Type  : Fast Model Minimum Pulse Width 'contador_6:M6|Flip_flop_T:C|Q'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Fast Model Minimum Pulse Width 'contador_6:S6|Flip_flop_T:C|Q'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Fast Model Minimum Pulse Width 'contador_10:M10|Flip_flop_T:D|Q'
+Slack : -0.500
+TNS   : -3.000
+
+Type  : Fast Model Minimum Pulse Width 'contador_10:S10|Flip_flop_T:D|Q'
+Slack : -0.500
+TNS   : -3.000
+
+Type  : Fast Model Minimum Pulse Width 'contador_10:H10|Flip_flop_T:D|Q'
+Slack : -0.500
+TNS   : -2.000
+
+------------------------------------------------------------
