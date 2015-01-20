@@ -1,4 +1,6 @@
-relogio_verilog
+Relogio_Desenvolvido em verilog Verilog
 
-teste mudança
+Projedo de Sistemas Digitais 
+Desenvolvido para rodar na placa altera DE2
+Faltam Registradores  Registradores de carga paralela para pore ascerta-lo
 ===============
