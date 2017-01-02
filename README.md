@@ -1,6 +1,7 @@
-Relogio Desenvolvido em Verilog
+## Relogio Desenvolvido em Verilog
 
 Projedo de Sistemas Digitais 
-Desenvolvido para rodar na placa altera FPGA
-Faltam Registradores de carga paralela para poder acerta-lo
+
+Desenvolvido para rodar na placa FPGA da altera 
+
 ===============
